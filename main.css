@@ -38,13 +38,10 @@
     content: "🦄";
     position: absolute;
     display: none;
+    top: 2px;
+    left: 2px;
 }
 
 .container input:checked ~ .checkmark::after {
     display: block;
-}
-
-.container .checkmark::after {
-    top: 2px;
-    left: 2px;
 }
